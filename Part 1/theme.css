@@ -1,0 +1,23 @@
+body { background:rgb(218, 212, 193); text-align:justify; font-family: Georgia, serif;}
+p { text-indent: 1.25em; font-family: Georgia, serif; margin-left: 20em; margin-right: 20em; }
+H1 { text-align: center; font-size: 3em; }
+H2 { text-align: center; font-size: 2em; font-style: italic; }
+H3 { text-align: center; font-size: 1em; font-style: italic; }
+H4,H5,H6 { text-align: center; font-size: 1em; }
+hr  { margin-left: 15em; margin-right: 15em; text-align: center; }
+div.fig { display:block; margin:0 auto; text-align:center; }
+pre     { font-style: italic; font-size: 0.85em; text-align: center;}
+img { display: block; margin-left: auto; margin-right: auto; }
+table	{ margin-left: 45em; }
+.poem { text-align: center; font-style: italic;}
+.boxx { text-align: center; }
+.cb { text-align: center; font-size: 2em }
+.c { text-align: center }
+.mynote {background-color: #c5c196; color: #000; text-align: center; font-family: Georgia, serif; margin-left: 15em; margin-right: 15em; padding-top: 1.75em}
+/*
+.figleft   {float: left; margin-left: 0%; margin-right: 1%;}
+.figright  {float: right; margin-right: 0%; margin-left: 1%;}
+.foot { margin-left: 20%; margin-right: 20%; text-align: justify; text-indent: -3em; font-size: 90%; }
+
+*/
+
