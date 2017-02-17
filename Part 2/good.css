@@ -1,9 +1,14 @@
 .header_bar	{	margin-left: 10em;
 			margin-right: 10em;
 		}
-.bar_divider	{	background: linear-gradient(to bottom right, #adc7ff, #4f86ff);
-			height: 0.5em;
-		}
+.bottom_bar_divider	{	background: linear-gradient(to bottom right, #adc7ff, #4f86ff);
+				height: 0.5em;
+				border-radius: 0px 0px 7px 7px;
+			}
+.top_bar_divider	{	background: linear-gradient(to bottom right, #adc7ff, #4f86ff);
+				height: 0.5em;
+				border-radius: 7px 7px 0px 0px;
+			}
 .top_bar	{	text-align: center;
 			font-size: 4em;
 			background: linear-gradient(to bottom right, #adc7ff, #4f86ff);
@@ -16,41 +21,61 @@ Author: Sotiris
 Retrieved: Feb 16, 2017
 */
 .left_bar	{	text-align: left;
-			margin-top: 0.25em;
-			margin-bottom: 0.25em;
-			/*background: #d1d4d6;*/
-			border-right: solid;
+			margin-top: 1.5em;
+			margin-bottom: 1.5em;
+			margin-left: 2%;
+			background: #d1d4d6;
+			border-left: 1px solid;
+			border-radius: 0px 7px 7px 0px;
+			padding-top: 0.75em;
 			padding-left: 0.5em;
 			padding-right: 0.5em;
 			height: 100%;
-			position: absolute;
-			left: 0;
-			top: 0;
 		}
 .content_container 	{	background: #ffffff;
 				margin-left: 10em;
 				margin-right: 10em;
-				height: auto;
-				overflow: hidden;
-				position: relative;
-				bottom: 2px;
+				overflow: visible;
 			}
 .main_content	{	margin-top: 0.25em;
 			display: inline-block;
-			float: right;
-			width: 87%;
+			margin-left: 2%;
+			float: left;
+			width: 80%;
 		}
 .header_wrapper	{	display: inline-block;
-			float: right;
+			float: left;
+			margin-left: 2%;
 			position: relative;
-			margin-right: 0.5em;
-			width: 75%
+			margin-right: 1.5em;
+			width: 80%
 		}
+
 .footer_bar	{	margin-left: 10em;
 			margin-right: 10em;
-			margin-top: 0.25em;
+
 		}
-#header	{	font-size: 2em;
+.header	{	font-size: 2em;
 		-webkit-margin-before: 0.25em;
 		-webkit-margin-after: 0em;
+		border-bottom: 1px solid;
 	}
+.ul	{	margin-top: 0px
+	}
+#profile_pic	{	border-radius: 50%;
+			float: left;
+			background-image: url("images/profile.jpg");
+			background-size: cover;
+			margin-right: 2%;
+			height: 6em;
+			width: 6em;
+		}
+#ualberta_pic	{	border-radius: 50%;
+			float: right;
+			margin-right: 0%;
+			background-image: url("images/ualberta.gif");
+			background-size: cover;
+			height: 5em;
+			width: 5em;
+		}
+		
