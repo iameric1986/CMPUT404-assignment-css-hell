@@ -1,41 +1,50 @@
 .header_bar	{	margin-left: 10em;
 			margin-right: 10em;
 		}
-.bottom_bar_divider	{	background: linear-gradient(to bottom right, #adc7ff, #4f86ff);
+.bottom_bar_divider	{	background: repeating-linear-gradient(red, green, purple);
 				height: 0.5em;
 				border-radius: 0px 0px 7px 7px;
 			}
-.top_bar_divider	{	background: linear-gradient(to bottom right, #adc7ff, #4f86ff);
+.top_bar_divider	{	background: repeating-linear-gradient(red, green, purple);
 				height: 0.5em;
 				border-radius: 7px 7px 0px 0px;
 			}
 .top_bar	{	text-align: center;
-			background: linear-gradient(to bottom right, #adc7ff, #4f86ff);
-			padding-bottom: 0.5em;
+			background: repeating-linear-gradient(red, green, purple);
 		}
+
+/*
+Expanding child div to parent div's height.
+Ref: http://stackoverflow.com/questions/4804581/css-expand-float-child-div-height-to-parents-height
+Author: Sotiris
+Retrieved: Feb 16, 2017
+*/
 .left_bar	{	text-align: left;
 			margin-top: 1.5em;
 			margin-bottom: 1.5em;
 			margin-left: 2%;
-			background: #d1d4d6;
 			border-left: 1px solid;
 			border-radius: 0px 7px 7px 0px;
 			padding-top: 0.75em;
 			padding-left: 0.5em;
 			padding-right: 0.5em;
 			height: 100%;
+			background-image: url("images/cat.jpg");
+			background-size: cover;
 		}
-.content_container 	{	background: #ffffff;
+.content_container 	{	background-image: url("images/trudeau-bigly-trump.jpg");
+				background-size: contain;
 				margin-left: 10em;
 				margin-right: 10em;
 				overflow: auto;
-				font-family: Arial, Helvetica, sans-serif;
+				color: white;
 			}
 .main_content	{	margin-top: 0.25em;
 			display: inline-block;
 			margin-left: 2%;
 			float: left;
 			width: 80%;
+			font-family: "Comic Sans MS", cursive, sans-serif;
 		}
 .header_wrapper	{	display: inline-block;
 			float: left;
@@ -54,6 +63,8 @@
 			letter-spacing: 3px;
 			font-family: Arial, Helvetica, sans-serif;
 			font-size: 4em;
+			color: yellow;
+			text-shadow: 3px 2px orange;
 			margin-top: 0px;
 			margin-bottom: 0px;
 		}
@@ -61,13 +72,13 @@
 		-webkit-margin-before: 0.25em;
 		-webkit-margin-after: 0em;
 		border-bottom: 1px solid;
-		color: blue;
+		color: green;
 	}
 .ul	{	margin-top: 0px
 	}
 #profile_pic	{	border-radius: 50%;
 			float: left;
-			background-image: url("images/profile.jpg");
+			background-image: url("images/monkey-suit.jpg");
 			background-size: cover;
 			margin-right: 2%;
 			height: 6em;
@@ -76,10 +87,10 @@
 #ualberta_pic	{	border-radius: 50%;
 			float: right;
 			margin-right: 0%;
-			background-image: url("images/ualberta.gif");
+			background-image: url("images/rubber-duck.jpg");
 			background-size: cover;
 			height: 5em;
 			width: 5em;
 		}
-body	{	background: #eeeeee
+body	{	background-image: url("images/overwatch-scooby-doo.jpg");
 	}
