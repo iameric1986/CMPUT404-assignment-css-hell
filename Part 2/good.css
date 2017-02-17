@@ -33,16 +33,18 @@ Retrieved: Feb 16, 2017
 				height: auto;
 				overflow: hidden;
 				position: relative;
+				bottom: 2px;
 			}
 .main_content	{	margin-top: 0.25em;
 			display: inline-block;
 			float: right;
-			position: relative;
+			width: 87%;
 		}
 .header_wrapper	{	display: inline-block;
 			float: right;
 			position: relative;
 			margin-right: 0.5em;
+			width: 75%
 		}
 .footer_bar	{	margin-left: 10em;
 			margin-right: 10em;
